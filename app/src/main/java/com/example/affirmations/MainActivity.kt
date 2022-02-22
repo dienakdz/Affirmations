@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
         recyclerView.adapter = ItemAdapter(this, myDataset)
 
-        imageView.setImageResource(R.drawable.img2)
+        imageView.setImageResource(R.drawable.img1)
 
         // Use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
